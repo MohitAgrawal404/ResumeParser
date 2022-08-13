@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Resume
 
 class ResumeAdmin(admin.ModelAdmin):
-    list_display = ('title', 'file')
+    list_display = ('title', 'file', 'info')
 
 # Register your models here.
 

@@ -4,6 +4,7 @@ from django.db import models
 class Resume(models.Model):
     title = models.CharField(max_length=120)
     file = models.FileField()
+    info = models.JSONField()
 
 
 
